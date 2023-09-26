@@ -1,0 +1,124 @@
+/* CSS Document */
+
+body{
+	background-color: #E0FCE1;
+	color: #000;
+	}
+
+.single_recepie{
+background-color:#fff;
+border-radius: 2em;
+padding: 10px;
+}
+.single_recepie:hover {
+		/* Add your hover styles here */
+		transform: translate(0%,0%)scale(1.05);
+		transition: transform 0.6s ease,top 0.4s ease;
+		box-shadow: 0px 0px 10px 8px rgba(0, 0, 51, 0.5);
+		padding: 10px;
+		border-radius: 2em;
+	}
+.single_recepie .recepie_thumb img{
+	height: 100%;
+	width:100%;
+}
+.recepie_text {
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .recepie_text:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .recepie_text p {
+            margin: 10px 0;
+        }
+
+        .fa-check {
+            color: green;
+            margin-right: 5px;
+        }
+	.recepie_text p:hover {
+		    font-size: 16px;
+            transform: translateY(-5px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+.step-list .hidden-step {
+	display: none;
+}
+/* Style for the "Show More" button */
+#show-more-button {
+	display: block;
+	margin-top: 10px;
+	cursor: pointer;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: 700;
+	}
+#print-button{
+	margin-top: 10px;
+	cursor: pointer;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	display: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-left: 30px;
+	background-color:#B30C0F;
+	font-weight: 700;
+	width: 130px;
+}
+#buttons{
+	display: flex;
+	flex-direction: row;
+	width: 360px;
+}
+.single_customer{
+	border-color:#061957;
+	background-color: lightcyan;
+	border-style: 4px solid;
+	border-color: #310D55;
+	border-radius: 3em;
+	color: #000;
+	font-weight: 600;
+}
+.single_customer span{
+	color: black;
+	font-weight: 700;
+	font-size:17px;
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+.single_customer p{
+	background-color: #E0FCE1;
+	padding: 10px;
+	border-bottom-left-radius: 3em;
+	border-top-right-radius: 3em;
+}
+.single_customer:hover {
+		/* Add your hover styles here */
+		transform: translate(0%,0%)scale(.95);
+		transition: transform 0.6s ease,top 0.4s ease;
+		box-shadow: 0px 0px 10px 8px rgba(0, 0, 51, 0.5);
+	}
+.single_dish{
+	background-color: #fff;
+	color: #fff;
+	font-weight: 600;
+	
+}
+.single_dish:hover {
+		/* Add your hover styles here */
+		transform: translate(0%,0%)scale(1.05);
+		transition: transform 0.6s ease,top 0.4s ease;
+		box-shadow: 0px 0px 10px 8px rgba(0, 0, 51, 0.5);
+	}

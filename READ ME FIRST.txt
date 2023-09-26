@@ -1,0 +1,42 @@
+Thank you for using our Accepting our services.
+
+Please read the following steps to enable your install and enjoy the operation of Web-COOKBOOK.
+
+Download XAMPP LATEST VERSION FROM: 
+https://www.apachefriends.org/ (Choose your OS version)
+-Use any of its positive option page to install.
+-Unzip the copy the unzipped recipes folder into->
+Dir:  C:\xampp\htdocs
+
+-Start XAMPP SERVER 1(APACHE) & 2(MySQL) ONLY.
+-CLICK APACHE CONFIG & SELECT OPTION(4) PHP(php.ini)
+-Search for the phrase "extension=gd"
+-Uncomment it BY REMOVING THE SEMI-COLON ";"
+-Save and close the file.
+-START THE SERVER(STOP AND START BOTH APACHE AND MySQL)
+
+-Open Chrome or Edge browser, while the server is up.
+-Type in the ip address : 127.0.0.1
+-Click on the phpMyAdmin optionon the NavBar.
+-Click Create new Database: Database name enter "RECIPES or recipes"
+-After creation Click on IMPORT
+-Slightly scroll down choose Browse.
+-Navigation through your C Dir: C -> XAMPP -> htdocs -> recipes -> DATABASE -> recipes.sql
+-Select and IMPORT it
+-After that Launch the application with (127.0.0.1/recipes)
+
+Current accounts: Login to:
+Using: Alvin  & 12345
+     : Delany & 123456
+     : Amos   & 1234
+     : Harriez  & 1234
+Username and password respectively or Create your own accounts.
+
+REMEMBER TO ADD YOUR ON NAME AT THE FOOTER SECTION # ON THE MAIN PAGES( DESIGNED BY:............)
+
+GOOD LUCK..!
+
+
+
+
+

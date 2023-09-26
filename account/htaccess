@@ -1,0 +1,20 @@
+# mod_rewrite_starts_here
+
+RewriteEngine on
+#For HTML Website, copy and paste this line of code in your .htaccess File:
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+
+#For PHP Website, copy and paste this line of code in your .htaccess File:
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+
+Options -Indexes
+
